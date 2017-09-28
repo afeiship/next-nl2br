@@ -4,7 +4,7 @@
 
 ## resources:
 + http://locutus.io/php/nl2br/
-
++ https://stackoverflow.com/questions/6331895/how-to-replace-n-with-br-in-javascript
 
 ## usage:
 ```js
@@ -16,4 +16,12 @@
 //   returns 3: '<br />\nOne<br />\nTwo<br />\n<br />\nThree<br />\n'
 //   example 4: nl2br(null)
 //   returns 4: ''
+```
+
+
+## other solution:
+```js
+while (message.indexOf("\\n") !== -1) {
+   message = message.replace("\\n", "<br />");
+}
 ```
