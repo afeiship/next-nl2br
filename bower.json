@@ -1,0 +1,26 @@
+{
+  "name": "next-nl2br",
+  "description": "Replace \n with &lt;br /&gt; in JavaScript.",
+  "main": "dist/next-nl2br.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-nl2br",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
