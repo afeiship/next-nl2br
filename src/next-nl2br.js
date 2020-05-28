@@ -1,7 +1,6 @@
-(function () {
-
+(function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+  var nx = global.nx || require('@feizheng/next-js-core2');
   var UNDEFINED = 'undefined';
   var EMPTY_STR = '';
   var XML_BR = '<br ' + '/>';
@@ -38,9 +37,7 @@
     return (inString + EMPTY_STR).replace(REPLACER, breakTag + DOLLER_1);
   };
 
-
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.nl2br;
   }
-
-}());
+})();

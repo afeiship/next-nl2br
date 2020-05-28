@@ -1,7 +1,16 @@
-(function () {
+/*!
+ * name: @feizheng/next-nl2br
+ * description: Replace 
+ with <br /> in JavaScript.
+ * homepage: https://github.com/afeiship/next-nl2br
+ * version: 1.0.0
+ * date: 2020-05-28T04:49:01.676Z
+ * license: MIT
+ */
 
+(function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+  var nx = global.nx || require('@feizheng/next-js-core2');
   var UNDEFINED = 'undefined';
   var EMPTY_STR = '';
   var XML_BR = '<br ' + '/>';
@@ -38,9 +47,9 @@
     return (inString + EMPTY_STR).replace(REPLACER, breakTag + DOLLER_1);
   };
 
-
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.nl2br;
   }
+})();
 
-}());
+//# sourceMappingURL=next-nl2br.js.map
