@@ -1,5 +1,5 @@
 # next-nl2br
-> Replace \n with <br /> in JavaScript.
+> Replace \n with `<br />` in JavaScript.
 
 ## installation
 ```bash
