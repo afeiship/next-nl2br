@@ -4,7 +4,7 @@
  with `<br />` in JavaScript.
  * homepage: https://github.com/afeiship/next-nl2br
  * version: 1.0.0
- * date: 2020-11-21 10:36:13
+ * date: 2020-11-21 10:38:36
  * license: MIT
  */
 
