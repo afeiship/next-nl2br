@@ -13,7 +13,7 @@ npm install -S @jswork/next-nl2br
 
 ## usage
 ```js
-import '@feizheng/next-nl2br';
+import '@jswork/next-nl2br';
 //   example 1: nl2br('Kevin\nvan\nZonneveld')
 //   returns 1: 'Kevin<br />\nvan<br />\nZonneveld'
 //   example 2: nl2br("\nOne\nTwo\n\nThree\n", false)
