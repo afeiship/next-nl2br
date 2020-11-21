@@ -1,16 +1,16 @@
 /*!
- * name: @feizheng/next-nl2br
+ * name: @jswork/next-nl2br
  * description: Replace 
- with <br /> in JavaScript.
+ with `<br />` in JavaScript.
  * homepage: https://github.com/afeiship/next-nl2br
  * version: 1.0.0
- * date: 2020-05-28T04:49:01.676Z
+ * date: 2020-11-21 10:36:13
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var UNDEFINED = 'undefined';
   var EMPTY_STR = '';
   var XML_BR = '<br ' + '/>';
@@ -51,5 +51,3 @@
     module.exports = nx.nl2br;
   }
 })();
-
-//# sourceMappingURL=next-nl2br.js.map
