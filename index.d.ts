@@ -1,3 +1,3 @@
 interface NxStatic {
-  nl2br: any;
+  nl2br: (str: string, isXhtml?: boolean) => string;
 }
