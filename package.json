@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-nl2br",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replace \n with &lt;br /&gt; in JavaScript.",
   "homepage": "https://js.work",
   "files": [
@@ -53,5 +53,9 @@
     "src/**/*.{js,jsx}": [
       "npm run pretty"
     ]
-  }
+  },
+  "keywords": [
+    "nl2br",
+    "next"
+  ]
 }
